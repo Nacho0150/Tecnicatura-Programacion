@@ -134,3 +134,22 @@ let orden2 = new Orden();
 orden2.argegarComputadora(computadora2);
 orden2.argegarComputadora(computadora1);
 orden2.mostrarOrden();
+
+
+//Poliformismo 
+console.log("\n POLIMORFISMO ");
+
+let dispositivos = [raton1, teclado1, monitor1, computadora1];
+
+for (let dispositivo of dispositivos) {
+    console.log(dispositivo.toString());
+}
+
+function imprimirDispositivo(dispositivo) {
+    console.log(dispositivo.toString());
+}
+
+imprimirDispositivo(raton1);        
+imprimirDispositivo(teclado1);      
+imprimirDispositivo(monitor1);      
+imprimirDispositivo(computadora1);
