@@ -14,3 +14,5 @@ except Exception as e:
     print(f'Ocurrió un error: {e}')
 finally:
     conexion.close()
+
+# https://www.psycopg.org/docs/usage.html
