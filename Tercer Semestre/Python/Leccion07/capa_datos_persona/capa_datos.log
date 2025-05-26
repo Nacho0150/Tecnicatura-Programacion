@@ -3,3 +3,67 @@
 07:54:00 PM:WARNING - [logger_base.py:18] Mensaje a nivel warning
 07:54:00 PM:ERROR - [logger_base.py:19] Mensaje a nivel error
 07:54:00 PM:CRITICAL - [logger_base.py:20] Mensaje a nivel critical
+06:59:03 PM:DEBUG - [Persona.py:53] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+07:02:09 PM:DEBUG - [Persona.py:53] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+07:03:00 PM:DEBUG - [Persona.py:53] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+07:03:00 PM:DEBUG - [Persona.py:55] 
+            Id Persona: Jose,
+            Nombre: Lopez,
+            Apellido: ljose@gmail.com,
+            Email: None
+        
+07:03:45 PM:DEBUG - [Persona.py:53] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+07:03:45 PM:DEBUG - [Persona.py:55] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lopez,
+            Email: ljose@gmail.com
+        
+07:04:52 PM:DEBUG - [Persona.py:53] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+07:04:52 PM:DEBUG - [Persona.py:55] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lopez,
+            Email: ljose@gmail.com
+        
+07:04:52 PM:DEBUG - [Persona.py:57] 
+            Id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+07:22:02 PM:ERROR - [conexion.py:27] Ocurrió un error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  database "test_bd" does not exist
+
+07:22:41 PM:ERROR - [conexion.py:27] Ocurrió un error: name 'logging' is not defined
+07:23:56 PM:DEBUG - [conexion.py:24] Conexión Exitosa: <connection object at 0x000001CF41549F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:25:31 PM:DEBUG - [conexion.py:24] Conexión Exitosa: <connection object at 0x0000024528DE9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:25:31 PM:ERROR - [conexion.py:40] Ocurrió un error: 'NoneType' object has no attribute 'cursor'
+07:26:54 PM:DEBUG - [conexion.py:24] Conexión Exitosa: <connection object at 0x0000019E6B1C9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:26:54 PM:ERROR - [conexion.py:40] Ocurrió un error: 'NoneType' object has no attribute 'cursor'
+07:27:10 PM:DEBUG - [conexion.py:24] Conexión Exitosa: <connection object at 0x00000201BEDA5F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:27:10 PM:DEBUG - [conexion.py:37] Se abrió correctamente el cursor: <cursor object at 0x00000201BEA52340; closed: 0>
