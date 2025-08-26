@@ -22,8 +22,8 @@ print(f'Es infinito?: {math.isinf(infinito_negativo)}')
 # Módulo Decimal
 infinito_positivo = Decimal('Infinity')
 print(f'Infinito positivos: {infinito_positivo}')
-print(f'Es infinito?: {infinito_positivo.is_infinite()}')
+print(f'Es infinito?: {math.isinf(infinito_positivo)}')
 
 infinito_negativo = Decimal('-Infinity')
 print(f'Infinito negativos: {infinito_negativo}')
-print(f'Es infinito?: {infinito_negativo.is_infinite()}')
+print(f'Es infinito?: {math.isinf(infinito_negativo)}')
