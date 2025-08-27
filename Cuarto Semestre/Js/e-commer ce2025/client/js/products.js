@@ -26,5 +26,5 @@ const productos = [
         price: 510,
         quanty: 1,
         img: "./media/mayonesa.jpg",
-    }
+    },
 ];
